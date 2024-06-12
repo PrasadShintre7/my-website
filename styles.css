@@ -1,0 +1,22 @@
+:root {
+ --background-color: #fff;
+ --text-color: #000;
+ --link-color: #007bff;
+}
+@media (prefers-color-scheme: dark) {
+ :root {
+   --background-color: #121212;
+   --text-color: #e0e0e0;
+   --link-color: #bb86fc;
+ }
+}
+body {
+ background-color: var(--background-color);
+ color: var(--text-color);
+}
+a {
+ color: var(--link-color);
+}
+.fade-in {
+ opacity: 0;
+}
